@@ -14,6 +14,7 @@ static char UIViewIconViewKey;
 
 
 @implementation UIView (iconAndTip)
+CGFloat _cur_tip_top = 0.0f;
 - (void)showAttributedTip:(NSAttributedString *)tip {
     [self showAttributedTip:tip top:200 icon:nil];
 }

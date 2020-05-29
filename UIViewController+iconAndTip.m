@@ -12,7 +12,6 @@
 
 
 @implementation UIViewController (iconAndTip)
-CGFloat _cur_tip_top = 0.0f;
 - (void)showAttributedTip:(NSAttributedString *)tip {
     [self.view showAttributedTip:tip];
 }
