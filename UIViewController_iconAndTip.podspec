@@ -10,13 +10,13 @@ Pod::Spec.new do |s|
 				
                    DESC
 
-  s.homepage     = "https://git.coding.net/crazysiri/UIViewController_iconAndTip.git"
+  s.homepage     = "https://github.com/Crazysiri/UIViewController_iconAndTip.git"
 
    s.license          = { :type => 'MIT', :file => 'LICENSE' }
 
   s.author             = { "zero" => "511121933@qq.com" }
 
-  s.source       = { :git => "https://git.coding.net/crazysiri/UIViewController_iconAndTip.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Crazysiri/UIViewController_iconAndTip.git", :tag => "#{s.version}" }
 
    s.platform     = :ios, "9.0"
    s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
